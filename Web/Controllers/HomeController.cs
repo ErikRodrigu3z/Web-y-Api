@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Persistence.ViewModels;
 using System.Diagnostics;
-using Web.Models;
 
 namespace Web.Controllers
 {
@@ -15,6 +15,7 @@ namespace Web.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 

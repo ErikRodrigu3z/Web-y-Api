@@ -1,4 +1,4 @@
-namespace Web.Models
+﻿namespace Persistence.ViewModels
 {
     public class ErrorViewModel
     {
